@@ -1,7 +1,7 @@
 # PRODIGY_CS_02
 ---
 
-# Pixel Manipulation-Based Image Encryption Tool 🛡️🖼️
+# Pixel Manipulation-Based Image Encryption Tool 🛡️
 
 The **Pixel Manipulation-Based Image Encryption Tool** is a web-based application designed to secure images through advanced encryption techniques. Using XOR encryption and pixel swapping, this tool allows users to protect their images with a unique key or seed, making visual data unreadable without the decryption key.
 
