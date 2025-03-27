@@ -7,17 +7,21 @@ The **Pixel Manipulation-Based Image Encryption Tool** is a web-based applicatio
 
 This project is built using **Python** (Flask), **PIL** (Python Imaging Library), and **Bootstrap**, ensuring a smooth user experience, fast processing, and secure encryption.
 
-## Features 🚀
+## 🚀Features 
 
-- **XOR Encryption**: Uses a bitwise XOR operation to scramble image pixel values, making them unreadable without the decryption key.
-- **Pixel Swapping**: Randomly swaps pixels within the image, further complicating the encryption.
+- **Secure Image Encryption:** Uses pixel manipulation techniques to obscure image data.
+- **Decryption Support:** Restore encrypted images to their original form.
+- **XOR Encryption:** Uses a bitwise XOR operation to scramble image pixel values, making them unreadable without the decryption key.
+- **Pixel Swapping:** Randomly swaps pixels within the image, further complicating the encryption.
+- **Lightweight & Fast:**  Optimized for speed and minimal resource usage.
 - **Web-Based Interface**: User-friendly interface to easily upload, encrypt, and decrypt images.
-- **Customizable Key/Seed**: Users can input a custom encryption key or seed for enhanced security.
-- **Fast Processing**: Efficient image manipulation to ensure quick encryption and decryption.
+- **Customizable Key:** Users can input a custom encryption key or seed for enhanced security.
+- **Lightweight & Fast**: Optimized for speed and minimal resource usage.
 - **Cross-Platform**: Built with Flask, ensuring compatibility across different platforms.
-- **Secure Image Sharing**: Ideal for secure transmission of images, digital watermarking, and privacy protection.
+  
 
-## Technologies Used 🛠️
+
+## 🛠️Technologies Used 
 
 - **Python**: Programming language used for backend logic.
 - **Flask**: Lightweight web framework to handle HTTP requests and serve the web application.
@@ -25,15 +29,15 @@ This project is built using **Python** (Flask), **PIL** (Python Imaging Library)
 - **Bootstrap**: Frontend framework used for creating the responsive user interface.
 - **HTML/CSS**: Markup and styling for the web pages.
 
-## How It Works 🔐
+## 🔐How It Works 
 
-1. **Upload Image**: Users upload an image file they wish to encrypt.
-2. **Enter Key/Seed**: Users provide a key or seed that will be used for encryption.
-3. **Encrypt Image**: The image is processed using XOR encryption and pixel swapping techniques to secure the image.
-4. **Download Encrypted Image**: Users can download the encrypted image.
-5. **Decrypt Image**: To view the original image, users input the same key/seed to decrypt it.
+1. Upload an image file to encrypt.
+2. Provide a key that will be used for encryption.
+3. Image is processed using XOR encryption and pixel swapping techniques to secure the image.
+4. Download the encrypted image.
+5. To view the original image, users input the same key/seed to decrypt it.
 
-## Installation 📥
+## 📥Installation 
 
 ### Prerequisites
 
@@ -76,7 +80,7 @@ This will start a development server. By default, the app will be available at:
 http://127.0.0.1:5000
 ```
 
-## Usage 📷
+## 📷Usage 
 
 1. **Upload Image**: Click the "Choose File" button to upload the image you want to encrypt.
 2. **Enter Key**: Enter a unique key or seed (alphanumeric characters) for encryption. This will ensure that the encryption is unique and secure.
@@ -84,30 +88,23 @@ http://127.0.0.1:5000
 4. **Download**: Once encryption is complete, download the encrypted image file.
 5. **Decrypt**: To decrypt the image, upload the encrypted image, input the same key used for encryption, and click "Decrypt."
 
-## Example Workflow ⚙️
+## ⚙️Example Workflow 
 
 1. User uploads `image.jpg`.
 2. User enters a key: `123`.
-3. Tool encrypts the image using XOR and pixel swapping.
+3. Tool encrypts the image using `XOR` and `pixel swapping`.
 4. Encrypted image `image_encrypted.jpg` is available for download.
 5. User later uploads `image_encrypted.jpg` and enters the same key (`123`) to decrypt it and recover the original image.
 
 ---
 
-## 🎨 Demo
 
-Here’s a quick preview of the user interface:
-
-![Pixel Manipulation-Based Image Encryption Tool](PixelManipulation.gif)
-
----
-
-## Security Considerations 🔒
+## 🔒Security Considerations 
 
 - **Key Safety**: The security of the encrypted image depends heavily on the strength and secrecy of the key/seed. It is important to keep the key private.
 - **Encryption Strength**: The tool employs basic XOR encryption and pixel manipulation, which is suitable for casual image protection. However, for high-security needs, consider using more advanced cryptographic methods.
 
-## Contributing 🤝
+## 🤝Contributing 
 
 I welcome contributions! If you have ideas for improvements, fixes, or new features, feel free to open an issue or submit a pull request.
 
@@ -122,7 +119,7 @@ I welcome contributions! If you have ideas for improvements, fixes, or new featu
 
 ---
 
-### Tags 🏷️
+### 🏷️Tags 
 - `#ImageEncryption`
 - `#XOREncryption`
 - `#PixelManipulation`
@@ -141,6 +138,4 @@ I welcome contributions! If you have ideas for improvements, fixes, or new featu
 
 ---
 
-## 💬 Questions or Feedback?
-
-Feel free to reach out via GitHub Issues or contact me directly at [md.kashif123490@gmail.com](mailto:your-email@example.com).
+## 💬Feel free to reach out via GitHub Issues or contact me directly at vaipatel97@gmail.com 
