@@ -93,7 +93,7 @@ python pixel_manipulation.py
 - Avoid using weak or predictable keys.
 - This tool does not store encryption keys, ensuring privacy.
 
-## Future Enhancements
+## 📍 Future Enhancements
 - Implement AES-based hybrid encryption.
 
 ## 🤝Contributing
